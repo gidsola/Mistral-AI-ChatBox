@@ -2,19 +2,25 @@
 
 Welcome to the **Mistral AI ChatBox**! This application leverages the power of Mistral AI to provide intelligent, context-aware chat capabilities. Designed for developers and enthusiasts alike, the Mistral AI ChatBox is your go-to solution for building interactive, AI-driven chat applications.
 
+
 ## Description
 
 The **Mistral AI ChatBox** is a feature-rich template that allows you to create cross-platform desktop applications with advanced AI capabilities. By combining Electron for desktop functionality and Next.js for modern web development, this app provides a seamless development experience. With built-in support for Markdown and LaTeX parsing, as well as syntax-highlighted code responses, the Mistral AI ChatBox is perfect for developers looking to build sophisticated, AI-powered chat interfaces.
 
 **Note**: A valid Mistral AI API key is required to use this application. Be sure to configure your API key in the `config.mjs` file before running the app.
 
+
 ## Configuration
 
 Before running the application, ensure you configure the required values in the `config.mjs` file. These settings are essential for connecting to the Mistral AI API and customizing its behavior.
 
-### Mistral AI Defaults
+### Steps to Configure
 
-Open the `config.mjs` file and update the following section with your desired values:
+1. Locate the `config.mjs` file in the project directory.
+2. Replace the placeholder `api_key` value with your actual Mistral AI API key.
+3. Adjust the `completionOptions` settings as needed to suit your application's requirements.
+
+### Mistral AI Defaults
 
 ```javascript
 /** *************************************************************************
@@ -57,19 +63,15 @@ Mistral: {
 }
 ```
 
-### Steps to Configure
 
-1. Locate the `config.mjs` file in the project directory.
-2. Replace the placeholder `api_key` value with your actual Mistral AI API key.
-3. Adjust the `completionOptions` settings as needed to suit your application's requirements.
+### Development Mode Configuration
+
+To ensure the app runs correctly in development mode, you need to set the `isDev` boolean inside `main.js`. This flag determines whether the app is running in development or production mode. In the future, this configuration will be moved to a dedicated `config/env` file for better maintainability.
 
 Once configured, you can proceed with running or building the application as described in the [Installation](#installation) and [Build Process](#build-process) sections.
 
 **Note**: Ensure you keep your API key secure and do not expose it in public repositories.
 
-## Development Mode Configuration
-
-To ensure the app runs correctly in development mode, you need to set the `isDev` boolean inside `main.js`. This flag determines whether the app is running in development or production mode. In the future, this configuration will be moved to a dedicated `config/env` file for better maintainability.
 
 ## Installation
 
