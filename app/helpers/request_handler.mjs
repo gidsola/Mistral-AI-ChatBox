@@ -174,4 +174,4 @@ function calculateContextSize(text) {
   };
 };
 
-export { ciDialogExchange, HistoryCompletion, getOCR };
+export { HistoryCompletion, getOCR };
