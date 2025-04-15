@@ -1,10 +1,12 @@
-# electron-nextjs-starter-app
+# Mistral AI ChatBox
 
-Welcome to the **electron-nextjs-starter-app**! This application seamlessly combines the power of Electron for desktop functionality with the efficiency of Next.js for modern web development. Whether you're a seasoned developer or just starting out, this starter app is designed to help you hit the ground running.
+Welcome to the **Mistral AI ChatBox**! This application leverages the power of Mistral AI to provide intelligent, context-aware chat capabilities. Designed for developers and enthusiasts alike, the Mistral AI ChatBox is your go-to solution for building interactive, AI-driven chat applications.
 
 ## Description
 
-The **electron-nextjs-starter-app** is a versatile template that allows you to build cross-platform desktop applications using web technologies. With Electron handling the desktop environment and Next.js managing the web framework, you get the best of both worlds. This app is perfect for developers looking to create robust, high-performance desktop applications with a modern web interface.
+The **Mistral AI ChatBox** is a feature-rich template that allows you to create cross-platform desktop applications with advanced AI capabilities. By combining Electron for desktop functionality and Next.js for modern web development, this app provides a seamless development experience. With built-in support for Markdown and LaTeX parsing, as well as syntax-highlighted code responses, the Mistral AI ChatBox is perfect for developers looking to build sophisticated, AI-powered chat interfaces.
+
+**Note**: A valid Mistral AI API key is required to use this application. Be sure to configure your API key in the `config.mjs` file before running the app.
 
 ## Configuration
 
