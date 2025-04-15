@@ -65,6 +65,10 @@ Once configured, you can proceed with running or building the application as des
 
 **Note**: Ensure you keep your API key secure and do not expose it in public repositories.
 
+## Development Mode Configuration
+
+To ensure the app runs correctly in development mode, you need to set the `isDev` boolean inside `main.js`. This flag determines whether the app is running in development or production mode. In the future, this configuration will be moved to a dedicated `config/env` file for better maintainability.
+
 ## Installation
 
 Getting started is easy! Follow these steps to set up your development environment:
@@ -121,11 +125,6 @@ Building the application is straightforward. Here are the commands you need:
   ```
 
 These commands will compile your application and prepare it for distribution.
-
-## Development Mode Configuration
-
-To ensure the app runs correctly in development mode, you need to set the `isDev` boolean inside `main.js`. This flag determines whether the app is running in development or production mode. In the future, this configuration will be moved to a dedicated `config/env` file for better maintainability.
-
 
 ## Preview
 
