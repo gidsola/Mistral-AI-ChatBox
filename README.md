@@ -130,7 +130,7 @@ These commands will compile your application and prepare it for distribution.
 
 Check out a quick preview of the app in action:
 
-[![Preview](./preview.png)](./preview.mp4)
+[![Preview](./preview.gif)](./preview.gif)
 
 
 **Happy coding! 🚀**
