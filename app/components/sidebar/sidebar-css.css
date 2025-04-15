@@ -1,0 +1,50 @@
+/* Sidebar Container */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+
+.sidebar {
+  background-color: none;
+  padding: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.sidebar button {
+  /* justify-content: space-between; */
+  display: flex;
+  width: 100%;
+  padding: 5px 10px;
+  margin: 0.5em;
+  background-color: #ad65fff3;
+  border: 1px solid #ad65fff3;
+  border-radius: 50px;
+  /* box-shadow: 0  2px 2px rgb(65, 61, 61); */
+  font-family: 'Poppins', Helvetica, sans-serif;
+  /* font-size: 14px; */
+  color: #f5f5f5;
+  /* text-align: center; */
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.sidebar button:hover {
+  background-color: #fa2ebdcc;
+  transition: background-color 0.3s ease;
+  /* transform: translateY(-2px); */
+  border-color: #fa2ebdcc;
+  color: #f5f5f5;
+}
+
+.sidebar button:active {
+  background-color: #d0d0d0;
+  /* transform: translateY(0); */
+}
+
+.settings {
+  justify-content: flex-end;
+  align-items: center;
+}

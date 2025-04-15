@@ -1,0 +1,76 @@
+{
+  "name": "mistral_chat",
+  "version": "2.0a",
+  "main": "electron/main.mjs",
+  "scripts": {
+    "start": "electron .",
+    "dev": "next dev",
+    "build:next": "next build",
+    "build:electron": "electron-builder",
+    "build": "npm run build:next && npm run build:electron",
+    "postinstall": "electron-builder install-app-deps",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "build": {
+    "appId": "com.example.mistralchat",
+    "productName": "Mistral Chat",
+    "directories": {
+      "output": "dist",
+      "buildResources": "build"
+    },
+    "files": [
+      "node_modules/**/*",
+      "electron/**/*",
+      "out/**/*"
+    ],
+    "win": {
+      "target": [
+        "nsis"
+      ]
+    },
+    "nsis": {
+      "warningsAsErrors": false,
+      "oneClick": false,
+      "createDesktopShortcut": true,
+      "runAfterFinish": true,
+      "allowToChangeInstallationDirectory": true,
+      "installerIcon": "build_assets/icon.ico",
+      "uninstallerIcon": "build_assets/uninstall.ico",
+      "uninstallDisplayName": "Mistral Chat"
+    },
+    "mac": {
+      "target": [
+        "dmg"
+      ],
+      "icon": "build_assets/icon.icns"
+    },
+    "linux": {
+      "target": [
+        "AppImage"
+      ],
+      "category": "Utility"
+    }
+  },
+  "author": "goodsie",
+  "license": "MIT",
+  "description": "AssistantInterface",
+  "devDependencies": {
+    "@types/uuid": "^10.0.0",
+    "electron": "^32.1.2",
+    "electron-builder": "^25.1.8",
+    "marked": "^14.1.2",
+    "typescript": "^5.6.2",
+    "uuid": "^10.0.0"
+  },
+  "dependencies": {
+    "dompurify": "^3.2.4",
+    "electron-prompt": "^1.7.0",
+    "electron-serve": "^2.1.1",
+    "highlight.js": "^11.11.1",
+    "katex": "^0.16.21",
+    "next": "^15.2.2",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "winreg": "^1.2.5"
+  }
+}

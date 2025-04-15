@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+    <g data-idx="1" style="fill: rgb(0, 0, 0); stroke: none; transform: none; opacity: 1;">
+        <g transform="matrix(1,0,0,1,20,50)" data-idx="2" style="fill: rgb(0, 0, 0); stroke: none; opacity: 1;">
+            <circle fill="#d6156c" r="6" cy="0" cx="0" data-idx="3" style="stroke: none; opacity: 1;">
+                <animateTransform attributeName="transform" type="scale" begin="0s" dur="1s" values="0.5;1;0.5" repeatCount="indefinite" />
+            </circle>
+        </g>
+        <g transform="matrix(1,0,0,1,40,50)" data-idx="5" style="fill: rgb(0, 0, 0); stroke: none; opacity: 1;">
+            <circle fill="#d6156c" r="6" cy="0" cx="0" data-idx="6" style="stroke: none; opacity: 1;">
+                <animateTransform attributeName="transform" type="scale" begin="0.2s" dur="1s" values="0.5;1;0.5" repeatCount="indefinite" />
+            </circle>
+        </g>
+        <g transform="matrix(1,0,0,1,60,50)" data-idx="8" style="fill: rgb(0, 0, 0); stroke: none; opacity: 1;">
+            <circle fill="#d6156c" r="6" cy="0" cx="0" data-idx="9" style="stroke: none; opacity: 1;">
+                <animateTransform attributeName="transform" type="scale" begin="0.4s" dur="1s" values="0.5;1;0.5" repeatCount="indefinite" />
+            </circle>
+        </g>
+        <g transform="matrix(1,0,0,1,80,50)" data-idx="11" style="fill: rgb(0, 0, 0); stroke: none; opacity: 1;">
+            <circle fill="#d6156c" r="6" cy="0" cx="0" data-idx="12" style="stroke: none; opacity: 1;">
+                <animateTransform attributeName="transform" type="scale" begin="0.6s" dur="1s" values="0.5;1;0.5" repeatCount="indefinite" />
+            </circle>
+        </g>
+    </g>
+</svg>
